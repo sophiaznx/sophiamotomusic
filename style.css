@@ -1,18 +1,18 @@
 body {
-    background-color: #2e7d32; /* Um verde moderno e estiloso */
-    color: #ffffff; /* Letras brancas para destacar no fundo verde */
-    font-family: Arial, sans-serif; /* Deixa as letras bem limpas e modernas */
-    text-align: center; /* Centraliza tudo na tela */
+    background-color: #2e7d32;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
-    color: #a5d6a7; /* Um verde clarinho para o título principal */
+    color: #a5d6a7;
     font-size: 50px;
     margin-top: 20px;
 }
 
 h2 {
-    color: #ffffff; /* Títulos das seções em branco */
+    color: #ffffff;
     font-size: 30px;
     margin-top: 40px;
 }
