@@ -1,5 +1,5 @@
 body {
-    background-color: #2e7d32;
+    background-color: #0f2b11; /* Verde escuro estiloso */
     color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -8,35 +8,39 @@ body {
 
 h1 {
     color: #a5d6a7;
-    font-size: 50px;
+    font-size: 45px;
     margin-top: 20px;
 }
 
 h2 {
-    color: #ffffff;
-    font-size: 30px;
+    color: #81c784;
+    font-size: 28px;
     margin-top: 40px;
 }
 
-/* Vídeo do Richard Ríos bem grande no topo */
+/* Vídeo do Richard Ríos com destaque, borda e sombra */
 .video-destaque {
     width: 80%;
     height: 450px;
     border-radius: 12px;
+    border: 3px solid #66bb6a;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
     margin-bottom: 30px;
 }
 
-/* Caixinha organizadora para colocar os outros vídeos lado a lado */
+/* Caixinha organizadora */
 .grade-videos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 
-/* Tamanho menor para os vídeos secundários */
+/* Vídeos menores com borda e sombra */
 .grade-videos iframe {
     width: 300px;
     height: 180px;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: 2px solid #a5d6a7;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
