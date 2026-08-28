@@ -3,6 +3,7 @@ body {
     color: #ffffff;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 20px;
 }
 
 h1 {
@@ -15,4 +16,27 @@ h2 {
     color: #ffffff;
     font-size: 30px;
     margin-top: 40px;
+}
+
+/* Vídeo do Richard Ríos bem grande no topo */
+.video-destaque {
+    width: 80%;
+    height: 450px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+/* Caixinha organizadora para colocar os outros vídeos lado a lado */
+.grade-videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Tamanho menor para os vídeos secundários */
+.grade-videos iframe {
+    width: 300px;
+    height: 180px;
+    border-radius: 8px;
 }
